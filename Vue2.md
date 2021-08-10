@@ -69,3 +69,21 @@
     ],
   }
 ```
+
+🔸 vue create [project]
+
+```javascript
+  // issue
+  command failed: yarn
+
+  // system
+  windows 10 64bit
+
+  // discussion
+  https://stackoverflow.com/questions/57935341/error-when-creating-a-vue-project-with-cli
+  https://github.com/vuejs/vue-cli/issues/889
+
+  // solution
+  1. vue config -s packageManager npm
+  2. re-run vue create
+```
