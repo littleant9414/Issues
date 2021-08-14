@@ -2,7 +2,7 @@
 
 ## 🔺 Notice
 
-🔸 watch
+🔸 NavigationDuplicated
 
   ```javascript
     //  issue :
