@@ -38,3 +38,19 @@
     // solution : 
     package.json => "sass-loader": "^10",
   ```
+
+🔸  node-sass & sass-loader
+
+  ```javascript
+    //  issue :
+     Syntax Error: Error: Node Sass version 6.0.1 is incompatible with ^4.0.0.
+
+    // system :
+    windows 10 64bit
+
+    // discussion
+    https://stdworkflow.com/463/syntax-error-error-node-sass-version-6-0-1-is-incompatible-with-4-0-0
+
+    // solution : 
+    npm install sass-loader@10.1.1
+  ```
