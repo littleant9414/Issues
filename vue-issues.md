@@ -54,3 +54,20 @@
     // solution : 
     npm install sass-loader@10.1.1
   ```
+
+🔸  node-sass & sass-loader
+
+  ```javascript
+    //  issue :
+     Syntax Error: SassError: media query expression must begin with '('
+
+    // system :
+    windows 10 64bit
+
+    // discussion
+    https://stackoverflow.com/questions/61680363/sasserror-media-query-expression-must-begin-with
+
+    // solution : 
+    when use @import "XXX"
+    must add semicolon => when use @import "XXX";
+  ```
