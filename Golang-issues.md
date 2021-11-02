@@ -57,3 +57,18 @@
   // solution
   must clean entire old version files before install new version
 ```
+💠 net/http package 
+
+```go
+  // issue
+ Get www.xxx.com: unsupported protocol scheme ""
+
+  // system
+  windows 10 64bit
+
+  // solution
+  add "http://" or "https://" before www.xxx.com
+  
+  //discussion
+  https://www.codeleading.com/article/87834737560/
+```
